@@ -6,8 +6,6 @@ SINH VIÊN THỰC HIỆN: NGUYỄN NHẬT MINH
 
 
 
-
-
 Fire Alarm Simulation Project
 
 This project simulates a fire detection system using **SimulIDE** for the Arduino circuit and a **Python** GUI for the user interface. Communication is handled via a virtual COM port created by **VSPE**.
