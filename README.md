@@ -1,4 +1,6 @@
-
+Final Project IE105.P21
+Student Perform: Nguyễn Nhật Minh-22520876
+Instructor: Nguyễn Tấn Cầm
 
 Fire Alarm Simulation Project
 
