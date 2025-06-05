@@ -1,0 +1,29 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-92,-256" rotation="90" hflip="1" vflip="1" label="Adruino" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="build/arduino.avr.uno/fire.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="LedRgb" CircId="LedRgb-2" mainComp="false" Show_id="true" Show_Val="false" Pos="204,-176" rotation="0" hflip="1" vflip="1" label="Led Báo Hiệu" idLabPos="-20.3528,16.9159" labelrot="0" valLabPos="-16,20" valLabRot="0" CommonCathode="true" Threshold_R="2.4 V" MaxCurrent_R="30 mA" Resistance_R="0.6 Ω" Threshold_G="3.5 V" MaxCurrent_G="30 mA" Resistance_G="0.6 Ω" Threshold_B="3.5 V" MaxCurrent_B="30 mA" Resistance_B="0.6 Ω" />
+
+<item itemtype="Dht22" CircId="Dht22-6" mainComp="false" Show_id="true" Show_Val="false" Pos="220,-84" rotation="0" hflip="1" vflip="1" label="Cảm biến nhiệt độ và độ ẩm" idLabPos="-50.199,31.5502" labelrot="0" valLabPos="-16,20" valLabRot="0" DHT22="DHT22" TempInc="58 °C" HumiInc="57 _%" />
+
+<item itemtype="Lamp" CircId="Lamp-8" mainComp="false" Show_id="false" Show_Val="false" Pos="96,-36" rotation="0" hflip="1" vflip="1" label="Lamp-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5 Ω" MaxCurrent="0.2 A" />
+
+<item itemtype="Ssd1306" CircId="Ssd1306-9" mainComp="false" Show_id="true" Show_Val="false" Pos="-44,-304" rotation="0" hflip="1" vflip="1" label="Ssd1306-9" idLabPos="-32,-60" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="White" Width="128 _px" Height="64 _px" Rotate="true" Control_Code="60" Frequency="100 _kHz" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="LedRgb-2-Pin0" endpinid="Uno-1-3" pointList="188,-184,140,-184,140,-252,60,-252,60,-216" />
+
+<item itemtype="Connector" uid="Connector-29" startpinid="LedRgb-2-Pin1" endpinid="Uno-1-4" pointList="188,-176,148,-176,148,-260,52,-260,52,-216" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="LedRgb-2-Pin2" endpinid="Uno-1-5" pointList="188,-168,156,-168,156,-268,44,-268,44,-216" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Dht22-6-inPin" endpinid="Uno-1-2" pointList="184,-88,124,-88,124,-244,68,-244,68,-216" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="LedRgb-2-Pin3" endpinid="Uno-1-GND1" pointList="220,-176,284,-176,284,-8,12,-8,12,-72" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Ssd1306-9-PinSck" endpinid="Uno-1-A5" pointList="-92,-256,-92,-252,-184,-252,-184,-52,84,-52,84,-72" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Ssd1306-9-PinSda" endpinid="Uno-1-A4" pointList="-84,-256,-84,-236,-164,-236,-164,-60,76,-60,76,-72" />
+
+</circuit>
