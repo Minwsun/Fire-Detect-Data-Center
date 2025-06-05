@@ -1,6 +1,12 @@
-Final Project IE105.P21
-Student Perform: Nguyễn Nhật Minh-22520876
-Instructor: Nguyễn Tấn Cầm
+ĐỒ ÁN CUỐI KỲ MÔN IE105.P21
+
+GIẢNG VIÊN HƯỚNG DẪN: THẦY NGUYỄN TẤN CẦM
+
+SINH VIÊN THỰC HIỆN: NGUYỄN NHẬT MINH
+
+
+
+
 
 Fire Alarm Simulation Project
 
